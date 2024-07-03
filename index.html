@@ -22,8 +22,8 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body class="max-w-[1160px] mx-auto font-inter">
-    <nav class="text-[#020043]">
+  <body class="container p-4 mx-auto font-inter">
+    <nav class="text-[#020043] max-w-6xl mx-auto">
       <div class="navbar bg-base-100">
         <div class="navbar-start">
           <div class="dropdown">
@@ -85,7 +85,7 @@
     </nav>
     <!-- Hero section -->
     <section>
-      <div class="hero mt-10">
+      <div class="hero mt-10 max-w-6xl mx-auto">
         <div class="hero-content flex-col lg:flex-row">
           <img
             src="images/Rectangle 5.png"
@@ -93,7 +93,7 @@
           />
         </div>
       </div>
-      <div class="mt-10 grid grid-cols-1 md:grid-cols-5 gap-3 justify-start">
+      <div class="mt-10 grid grid-cols-1 md:grid-cols-5 gap-3 justify-start max-w-6xl mx-auto">
         <div class="bg-[#FBFBFB] border border-[#02004333] p-5 rounded-3xl">
           <h2 class="text-[40px] font-semibold">90%</h2>
           <p class="text-sm mt-2 mb-6">
@@ -149,7 +149,7 @@
     </section>
     <!-- Intro section -->
     <section>
-      <div class="flex flex-row mt-40">
+      <div class="flex flex-row mt-40 max-w-6xl mx-auto">
         <div class="w-1/2">
           <button
             class="bg-[#FFFFF5] border border-[#343268] btn rounded-full mb-6"
@@ -205,7 +205,7 @@
     <!-- Service secion -->
     <section>
       <div
-        class="bg-[#FFFFF5] grid grid-cols-1 md:grid-cols-2 p-12 mt-[207px] gap-7 space-y-14"
+        class="bg-[#FFFFF5] grid grid-cols-1 md:grid-cols-2 p-12 mt-[207px] gap-7 space-y-14 max-w-6xl mx-auto"
       >
         <div>
           <button
@@ -295,7 +295,7 @@
     </section>
     <!-- Testimonial section -->
     <section>
-      <div class="mt-44">
+      <div class="mt-44 max-w-6xl mx-auto">
         <button
           class="bg-[#FBFBFB] btn rounded-full border border-[#4D4C7B] mb-4 ml-5"
         >
@@ -389,7 +389,7 @@
     </section>
     <!-- FAQ section -->
     <section>
-      <div class="mt-44">
+      <div class="mt-44 max-w-6xl mx-auto">
         <button
           class="bg-[#FBFBFB] btn rounded-full border border-[#4D4C7B] mb-4 ml-5"
         >
@@ -486,27 +486,120 @@
     </section>
     <!-- Discount page -->
     <section>
-      <div>
+      <div class="max-w-6xl mx-auto">
         <div
-          class="hero my-40"
+          class="my-40 min-h-[480px] rounded-[32px] p-14 bg-no-repeat bg-cover"
           style="
-            background-image: url(images/Rectangle\ 32.png);
+            background-image: radial-gradient(
+                640.07% 148.88% at -90% 78%,
+                #020043 0%,
+                rgba(2, 0, 67, 0.3) 100%
+              ),
+              url(images/Rectangle\ 32.png);
           "
         >
-          <div class="hero-overlay bg-opacity-60"></div>
-          <div class="hero-content text-neutral-content text-center">
-            <div class="max-w-md">
-              <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-              <p class="mb-5">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                assumenda excepturi exercitationem quasi. In deleniti eaque aut
-                repudiandae et a id nisi.
-              </p>
-              <button class="btn btn-primary">Get Started</button>
+          <div class="flex flex-row justify-between">
+            <div>
+              <div>
+                <h1 class="mb-5  text-4xl font-semibold text-white">
+                    Get Your <br />
+                    First Appointment <br />
+                    at 50% Off!
+                  </h1>
+              </div>
+              <div class="mt-6">
+                <a class="btn bg-[#FFC637] mt-12"
+                  >Appointment
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                    >
+                      <path
+                        d="M13.3137 1.86314C13.3137 1.31086 12.866 0.863141 12.3137 0.863141L3.31371 0.863141C2.76142 0.863141 2.31371 1.31086 2.31371 1.86314C2.31371 2.41543 2.76142 2.86314 3.31371 2.86314L11.3137 2.86314L11.3137 10.8631C11.3137 11.4154 11.7614 11.8631 12.3137 11.8631C12.866 11.8631 13.3137 11.4154 13.3137 10.8631L13.3137 1.86314ZM1.70711 13.884L13.0208 2.57025L11.6066 1.15603L0.292893 12.4697L1.70711 13.884Z"
+                        fill="#020043"
+                      /></svg></span
+                ></a>
+                <a class="btn btn-outline bg-transparent text-white mt-12"
+                  >Learn more
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                    >
+                      <path
+                        d="M13.3137 1.86314C13.3137 1.31086 12.866 0.863141 12.3137 0.863141L3.31371 0.863141C2.76142 0.863141 2.31371 1.31086 2.31371 1.86314C2.31371 2.41543 2.76142 2.86314 3.31371 2.86314L11.3137 2.86314L11.3137 10.8631C11.3137 11.4154 11.7614 11.8631 12.3137 11.8631C12.866 11.8631 13.3137 11.4154 13.3137 10.8631L13.3137 1.86314ZM1.70711 13.884L13.0208 2.57025L11.6066 1.15603L0.292893 12.4697L1.70711 13.884Z"
+                        fill="#FFFFF5"
+                      /></svg></span
+                ></a>
+              </div>
+            </div>
+            <div>
+                <img src="images/logo light.png" alt="">
             </div>
           </div>
         </div>
       </div>
     </section>
   </body>
+
+  <!-- Footer -->
+  <footer class="">
+    <footer class=" bg-[#020043] text-white p-10">
+        <div>
+            <img src="images/logo light.png" alt="">
+        </div>
+        <div class="footer">
+            <nav>
+                <p class="mt-8">
+                  123 Main Street Anytown, USA <br>
+                  Postal Code: 12345 <br> <br>
+          
+                  Support: support@oyolloo.com <br>
+                  (Available : 10:00am to 07:00pm)
+                </p>
+              </nav>
+            <nav>
+                <h6 class="footer-title">Home</h6>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Success Page</a>
+                <a class="link link-hover">Terms and Condition</a>
+              </nav>
+              <nav>
+                  <h6 class="footer-title">Services</h6>
+                  <a class="link link-hover">Scheduling</a>
+                  <a class="link link-hover">Contact Us</a>
+                  <a class="link link-hover">Patient Portal</a>
+                </nav>
+              <nav>
+                <h6 class="footer-title">Follow Us</h6>
+                <div class="grid grid-flow-col gap-4">
+                  <a>
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a>
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a>
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                </div>
+                <div class="mt-11">
+                    @docplus 2024
+                </div>
+              </nav>
+        </div>
+        
+      </footer>
+  </footer>
+  
 </html>
